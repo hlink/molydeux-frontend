@@ -1,8 +1,7 @@
 /** Compass Imports **/
 @import "compass";
-@import "compass/reset";
 @import "compass/css3/box-shadow";
 
-.navbar.navbar-inverse {
-  background: #ff0000;
+.navbar-inner {
+  background-color: #ff0000;
 }
