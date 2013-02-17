@@ -1,15 +1,22 @@
 /** Compass Imports **/
 /* line 3, ../scss/_header.scss */
 .navbar .brand {
-  width: 15.30612%;
+  width: 14.28571%;
   min-width: 100px;
 }
 /* line 7, ../scss/_header.scss */
 .navbar .brand .logo {
   width: 100%;
 }
+/* line 13, ../scss/_header.scss */
+.navbar .nav {
+  font-size: 1.3em;
+  line-height: 100%;
+  text-transform: uppercase;
+}
 
-/* line 6, ../scss/application.scss */
+/* Molydeux Green Pixel Color */
+/* line 8, ../scss/application.scss */
 .navbar-inner {
   background-color: #ff0000;
 }

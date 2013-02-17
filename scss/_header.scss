@@ -1,13 +1,19 @@
 .navbar{
 	
 	.brand{
-		width: 150 / 980 * 100%;
+		width: 140 / 980 * 100%;
 		min-width: 100px;
 
 		.logo {
 			width: 100%;
 		}
 	
+	}
+
+	.nav{
+		font-size: 1.3em;
+		line-height: 100%;
+		text-transform: uppercase; 
 	}
 
 }
