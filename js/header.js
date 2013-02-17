@@ -13,10 +13,10 @@ var fadeStart=100 // 100px scroll or less will equiv to 0 opacity
 
 $(window).bind('scroll', function(){
 
-    fading.css('height', $('.navbar-inner').css('height'));
-    
+    fading.css('height', $('.navbar-inner').css('height')); //set the background cell to the height of the actual cell
+
     var offset = $(document).scrollTop()
-        ,opacity=1
+        ,opacity=0.8
     ;
     if( offset<=fadeStart ){
       opacity=0;

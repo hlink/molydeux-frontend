@@ -13,12 +13,29 @@
 	}
 }
 
+html{ //temporary to stretch page!
+	height: 150%;
+}
+
+body{
+	background: url('../img/cubes.png');
+	height: 100%;
+}
+
 .inner-container{
 	padding-left: 30px;
 	padding-right: 30px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
+}
+
+.content{
+	background-color: #fff;
+	box-shadow: 1px 0px 10px #333333, -1px 0px 10px #333333;
+	-webkit-box-shadow: 1px 0px 10px #333333, -1px 0px 10px #333333;
+	-moz-box-shadow: 1px 0px 10px #333333, -1px 0px 10px #333333;
+	height: 150%;
 }
 
 .carousel-inner{

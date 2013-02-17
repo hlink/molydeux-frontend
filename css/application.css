@@ -16,6 +16,17 @@
   }
 }
 /* line 16, ../scss/_layout.scss */
+html {
+  height: 150%;
+}
+
+/* line 20, ../scss/_layout.scss */
+body {
+  background: url("../img/cubes.png");
+  height: 100%;
+}
+
+/* line 25, ../scss/_layout.scss */
 .inner-container {
   padding-left: 30px;
   padding-right: 30px;
@@ -24,22 +35,31 @@
   width: 100%;
 }
 
-/* line 25, ../scss/_layout.scss */
+/* line 33, ../scss/_layout.scss */
+.content {
+  background-color: #fff;
+  box-shadow: 1px 0px 10px #333333, -1px 0px 10px #333333;
+  -webkit-box-shadow: 1px 0px 10px #333333, -1px 0px 10px #333333;
+  -moz-box-shadow: 1px 0px 10px #333333, -1px 0px 10px #333333;
+  height: 150%;
+}
+
+/* line 42, ../scss/_layout.scss */
 .carousel-inner img {
   width: 100%;
 }
-/* line 28, ../scss/_layout.scss */
+/* line 45, ../scss/_layout.scss */
 .carousel-inner .carousel-caption {
   padding-left: 30px;
   padding-right: 30px;
 }
 
-/* line 34, ../scss/_layout.scss */
+/* line 51, ../scss/_layout.scss */
 .carousel-control {
   left: 30px;
 }
 
-/* line 37, ../scss/_layout.scss */
+/* line 54, ../scss/_layout.scss */
 .carousel-control.right {
   left: auto;
   right: 30px;
@@ -99,11 +119,6 @@
 .navbar-container {
   position: absolute;
   z-index: 2;
-}
-
-/* line 51, ../scss/_header.scss */
-html {
-  height: 200%;
 }
 
 /* Molydeux Green Pixel Color */
