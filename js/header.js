@@ -8,10 +8,13 @@
 
 var fadeStart=100 // 100px scroll or less will equiv to 0 opacity
     ,fadeUntil=250 // 250px scroll or more will equiv to 1 opacity
-    ,fading = $('.navbar-inner')
+    ,fading = $('.navbar-background')
 ;
 
 $(window).bind('scroll', function(){
+
+    fading.css('height', $('.navbar-inner').css('height'));
+    
     var offset = $(document).scrollTop()
         ,opacity=1
     ;

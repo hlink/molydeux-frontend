@@ -60,9 +60,26 @@
   background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%);
   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%);
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%);
+  width: 100%;
 }
 
-/* line 35, ../scss/_header.scss */
+/* line 36, ../scss/_header.scss */
+.navbar-background {
+  width: 100%;
+  background-color: #000000;
+  position: absolute;
+  display: block;
+  top: 0;
+  z-index: 1;
+}
+
+/* line 45, ../scss/_header.scss */
+.navbar-container {
+  position: absolute;
+  z-index: 2;
+}
+
+/* line 50, ../scss/_header.scss */
 html {
   height: 200%;
 }

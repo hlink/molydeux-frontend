@@ -29,8 +29,23 @@
 			border: inherit;
 			box-shadow: inherit;
 			@include background-image(linear-gradient(top,  rgba(0,0,0,.8) 0%,rgba(0,0,0,0.1) 100%));
+			width: 100%;
 		}
 	}
+
+.navbar-background{
+	width: 100%;
+	background-color: #000000;
+	position: absolute;
+	display: block;
+	top: 0;
+	z-index: 1;
+}
+
+.navbar-container{
+	position: absolute;
+	z-index: 2;
+}
 
 html{ //this is tempoary to test the opacity change on scroll
 	height: 200%;
