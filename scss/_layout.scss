@@ -1,0 +1,22 @@
+@media (min-width: 1200px){
+	.navbar, .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+	width: 1110px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+}
+@media (min-width: 1680px){
+	.navbar, .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+	width: 1590px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+}
+
+.inner-container{
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
