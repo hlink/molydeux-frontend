@@ -14,19 +14,24 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  /* line 14, ../scss/_layout.scss */
+  .span4 {
+    width: 485.33333px;
+  }
 }
-/* line 16, ../scss/_layout.scss */
+/* line 20, ../scss/_layout.scss */
 html {
   height: 150%;
 }
 
-/* line 20, ../scss/_layout.scss */
+/* line 24, ../scss/_layout.scss */
 body {
   background: url("../img/cubes.png");
   height: 100%;
 }
 
-/* line 25, ../scss/_layout.scss */
+/* line 29, ../scss/_layout.scss */
 .inner-container {
   padding-left: 30px;
   padding-right: 30px;
@@ -35,7 +40,7 @@ body {
   width: 100%;
 }
 
-/* line 33, ../scss/_layout.scss */
+/* line 37, ../scss/_layout.scss */
 .content {
   background-color: #fff;
   box-shadow: 1px 0px 10px #333333, -1px 0px 10px #333333;
@@ -44,22 +49,22 @@ body {
   height: 150%;
 }
 
-/* line 42, ../scss/_layout.scss */
+/* line 46, ../scss/_layout.scss */
 .carousel-inner img {
   width: 100%;
 }
-/* line 45, ../scss/_layout.scss */
+/* line 49, ../scss/_layout.scss */
 .carousel-inner .carousel-caption {
   padding-left: 30px;
   padding-right: 30px;
 }
 
-/* line 51, ../scss/_layout.scss */
+/* line 55, ../scss/_layout.scss */
 .carousel-control {
   left: 30px;
 }
 
-/* line 54, ../scss/_layout.scss */
+/* line 58, ../scss/_layout.scss */
 .carousel-control.right {
   left: auto;
   right: 30px;
