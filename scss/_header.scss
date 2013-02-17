@@ -1,5 +1,5 @@
 .navbar{
-	
+	background-color: none;
 	.brand{
 		width: 140 / 980 * 100%;
 		min-width: 100px;
@@ -15,5 +15,21 @@
 		line-height: 100%;
 		text-transform: uppercase; 
 	}
-
 }
+
+
+.navbar-inverse{
+	background-color: #FFFFFF;
+	background-image: transparent;
+	border: none;
+	box-shadow: none;
+
+		.navbar-inner{ //gradient background on navbar
+		//@include filter-gradient(#0c0c0c, #00ffffff, vertical); // IE6-9
+			background-color: transparent;
+			border: none;
+			box-shadow: none;
+			@include background-image(linear-gradient(top,  rgba(12,12,12,1) 0%,rgba(12,12,12,0.03) 97%,rgba(255,255,255,0) 100%));
+		}
+	}
+
