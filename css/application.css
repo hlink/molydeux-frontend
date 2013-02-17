@@ -37,4 +37,9 @@
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%);
 }
 
+/* line 35, ../scss/_header.scss */
+html {
+  height: 200%;
+}
+
 /* Molydeux Green Pixel Color */
